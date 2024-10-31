@@ -66,31 +66,31 @@ set(msg_files
 	DebugValue.msg
 	DebugVect.msg
 	DifferentialPressure.msg
-	DistanceSensorModeChangeRequest.msg
 	DistanceSensor.msg
+	DistanceSensorModeChangeRequest.msg
 	Ekf2Timestamps.msg
 	EscReport.msg
 	EscStatus.msg
 	EstimatorAidSource1d.msg
 	EstimatorAidSource2d.msg
 	EstimatorAidSource3d.msg
-	EstimatorBias3d.msg
 	EstimatorBias.msg
+	EstimatorBias3d.msg
 	EstimatorEventFlags.msg
 	EstimatorGpsStatus.msg
 	EstimatorInnovations.msg
 	EstimatorSelectorStatus.msg
 	EstimatorSensorBias.msg
 	EstimatorStates.msg
-	EstimatorStatusFlags.msg
 	EstimatorStatus.msg
+	EstimatorStatusFlags.msg
 	Event.msg
+	FigureEightStatus.msg
 	FailsafeFlags.msg
 	FailureDetectorStatus.msg
-	FigureEightStatus.msg
 	FlightPhaseEstimation.msg
-	FollowTargetEstimator.msg
 	FollowTarget.msg
+	FollowTargetEstimator.msg
 	FollowTargetStatus.msg
 	FuelTankStatus.msg
 	GeneratorStatus.msg
@@ -148,9 +148,9 @@ set(msg_files
 	OpenDroneIdSelfId.msg
 	OpenDroneIdSystem.msg
 	OrbitStatus.msg
+	OrbTest.msg
 	OrbTestLarge.msg
 	OrbTestMedium.msg
-	OrbTest.msg
 	ParameterResetRequest.msg
 	ParameterSetUsedRequest.msg
 	ParameterSetValueRequest.msg
@@ -184,25 +184,25 @@ set(msg_files
 	RtlStatus.msg
 	RtlTimeEstimate.msg
 	SatelliteInfo.msg
-	SensorAccelFifo.msg
 	SensorAccel.msg
-	SensorAirflow.msg
+	SensorAccelFifo.msg
 	SensorBaro.msg
 	SensorCombined.msg
 	SensorCorrection.msg
 	SensorGnssRelative.msg
 	SensorGps.msg
+	SensorGyro.msg
 	SensorGyroFft.msg
 	SensorGyroFifo.msg
-	SensorGyro.msg
 	SensorHygrometer.msg
 	SensorMag.msg
 	SensorOpticalFlow.msg
 	SensorPreflightMag.msg
 	SensorSelection.msg
-	SensorsStatusImu.msg
 	SensorsStatus.msg
+	SensorsStatusImu.msg
 	SensorUwb.msg
+	SensorAirflow.msg
 	SystemPower.msg
 	TakeoffStatus.msg
 	TaskStackInfo.msg
@@ -216,8 +216,8 @@ set(msg_files
 	TuneControl.msg
 	UavcanParameterRequest.msg
 	UavcanParameterValue.msg
-	UlogStreamAck.msg
 	UlogStream.msg
+	UlogStreamAck.msg
 	VehicleAcceleration.msg
 	VehicleAirData.msg
 	VehicleAngularAccelerationSetpoint.msg
